@@ -2,27 +2,31 @@
 h1 {
 	font-size: 			50px;
 	text-transform: 	uppercase;
+	margin:				auto;
 }
 
-nav {
+#top {
+	margin:				auto;
+}
+
+#link {
 	float:				left;
 	font-size:			20px;
 	margin:				auto;
 }
 
-ul {
-	margin:				auto;
-}
 
 li {
 	float:				left;
 	margin:				10px;
 }
 
-#container {
-	width:				860px;
-	margin:				auto;
-	font-family: 		sans-serif;
-	background-color:	blue;
+
+#wrap {
+	font-family: 			sans-serif;
+	background: 			url(place.jpg) no-repeat center center fixed; 
+	background-size: 		960px;
+	height:					500px;
+	margin:					auto;
 }
 
