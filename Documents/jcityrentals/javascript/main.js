@@ -8,16 +8,15 @@ $(window).bind("load", function() {
 
  
 function aboutH(){
-    $( ".aboutH" ).addClass( "show" );
-    $(".contactH").removeClass( "show" );
+    $( ".locoPop" ).addClass( "show" );
 }
 
-$(".about").click( aboutH )
+$(".loco").click( aboutH )
 
 $( ".x" ).click( hide );
 
 function hide(){
-    $(".aboutH").removeClass("show");
+    $(".locoPop").removeClass("show");
     $(".contactH").removeClass("show");
 }
 
