@@ -109,17 +109,19 @@ footer {
 	background-color:	rgba(255, 255, 255, 0.3);
 	width:				100%;
 	padding:				10px;
+	font-size: 			20px;
 }
 
-.about, .contact {
+.loco, a {
 	color:				black;
 	text-decoration: 	none;
 	-transition: color .25s ease-in-out;
    -moz-transition: color .25s ease-in-out;
    -webkit-transition: color .25s ease-in-out;
+   margin:				10px;
 }
 
-.loco:hover {
+.loco:hover, a:hover {
 	color:				white;
 }
 
