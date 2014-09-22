@@ -1,11 +1,33 @@
+
+
+
 /* CURRENTLY IN: javascript/main.js */
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-  slideWidth: 500, 
-  mode: 'fade',
-  captions: true,
-  slideMargin: 20,
-  slideColor: 'black'
-});
+
+$(window).bind("load", function() {
+
+
+ 
+function aboutH(){
+    $( ".aboutH" ).addClass( "show" );
+    $(".contactH").removeClass( "show" );
+}
+
+$(".about").click( aboutH )
+
+$( ".x" ).click( hide );
+
+function hide(){
+    $(".aboutH").removeClass("show");
+    $(".contactH").removeClass("show");
+}
+
+
+
+function contact(){
+    $(".contactH").addClass( "show" );
+    $(".aboutH").removeClass("show");
+}
+
+$(".contact").click( contact );
 
 });
