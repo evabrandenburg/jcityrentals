@@ -5,28 +5,21 @@
 
 $(window).bind("load", function() {
 
-
+ $('#featured').orbit();
  
-function aboutH(){
+function show(){
     $( ".locoPop" ).addClass( "show" );
+    $( ".howPop" ).addClass( "show" );
 }
 
-$(".loco").click( aboutH )
+$(".loco").click( show );
+$(".how").click( show );
 
 $( ".x" ).click( hide );
 
 function hide(){
     $(".locoPop").removeClass("show");
-    $(".contactH").removeClass("show");
+    $(".howPop").removeClass("show");
 }
-
-
-
-function contact(){
-    $(".contactH").addClass( "show" );
-    $(".aboutH").removeClass("show");
-}
-
-$(".contact").click( contact );
 
 });
