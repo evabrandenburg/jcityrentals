@@ -5,15 +5,22 @@
 
 $(window).bind("load", function() {
 
+
  $('#featured').orbit();
+
+
+
  
-function show(){
+function sLoco(){
     $( ".locoPop" ).addClass( "show" );
+}
+
+function sHow(){
     $( ".howPop" ).addClass( "show" );
 }
 
-$(".loco").click( show );
-$(".how").click( show );
+$(".loco").click( sLoco );
+$(".how").click( sHow );
 
 $( ".x" ).click( hide );
 
@@ -21,5 +28,6 @@ function hide(){
     $(".locoPop").removeClass("show");
     $(".howPop").removeClass("show");
 }
+
 
 });
