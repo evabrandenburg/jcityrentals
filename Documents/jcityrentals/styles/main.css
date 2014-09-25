@@ -3,7 +3,8 @@
 	background-size:		cover;
 	overflow:				hidden;
  	position:				relative;
- 	width:					100%;
+ 	width:					960px;
+ 	margin:					auto;
  	height:					100%;
  }
 
@@ -84,15 +85,9 @@ nav {
 
 
 body {
-	width:						960px;
-	margin:						auto;
 	background-color:			white;
 }
 
-#container {
-	background-color:			white;
-	margin:						auto;
-}
 
 .title {
 	float:				left;
