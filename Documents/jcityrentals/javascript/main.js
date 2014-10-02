@@ -23,14 +23,20 @@ function sHow(){
     $( ".howPop" ).addClass( "show" );
 }
 
+function sSee(){
+	$( ".SlideS" ).addClass( "show" );
+}
+
 $(".loco").click( sLoco );
 $(".how").click( sHow );
+$(".see").click( sSee );
 
 $( ".x" ).click( hide );
 
 function hide(){
     $(".locoPop").removeClass("show");
     $(".howPop").removeClass("show");
+
 }
 
 
