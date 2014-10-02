@@ -13,6 +13,7 @@ $('#featured').orbit({
  });
 
 
+$( ".SlideS" ).hide();
 
  
 function sLoco(){
@@ -24,7 +25,8 @@ function sHow(){
 }
 
 function sSee(){
-	$( ".SlideS" ).addClass( "show" );
+	console.log("works");
+	$( ".SlideS" ).show();
 }
 
 $(".loco").click( sLoco );
