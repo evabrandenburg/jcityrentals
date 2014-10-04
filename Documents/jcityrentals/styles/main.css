@@ -22,16 +22,19 @@
  	width:					500px;
  }
 
- .slideS {
+ img {
+ 	display:				none;
+ }
+
+ .orbit-wrapper {
  	margin-left:			220px;
  	margin-top:				20px;
  	margin-bottom:			100px;
  	display:				none;
-
  }
 
- #featured {
-
+ .orbit {
+ 	display:				none;
  }
 
  .orbit-caption {

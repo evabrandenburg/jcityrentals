@@ -1,0 +1,29 @@
+.next {
+  float: right;
+}
+
+.prev {
+  float: right;
+}
+
+.one{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.two{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.three{
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
+
+.img{
+  position: fixed;
+}

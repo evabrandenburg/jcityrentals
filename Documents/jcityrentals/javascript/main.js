@@ -6,7 +6,15 @@
 $(window).bind("load", function() {
 
 
-$("#featured").hide();
+/*if ( $(".see").hover ){
+	$( "#featured").show();
+	console.log("true");
+}
+else{
+	$("#featured").hide();
+	console.log("false");
+}*/
+
 
 $('#featured').orbit({
      animation: 'fade',                  // fade, horizontal-slide, vertical-slide, horizontal-push
@@ -24,8 +32,8 @@ function sHow(){
 
 function sSee(){
 	console.log("works");
-	$( ".slideS" ).addClass( "show" );
-	$( "#featured" ).show();
+	$( ".orbit-wrapper" ).addClass( "show" );
+	$( ".orbit" ).addClass( "show" );
 }
 
 $(".loco").click( sLoco );
