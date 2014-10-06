@@ -30,21 +30,21 @@ function sHow(){
     $( ".howPop" ).addClass( "show" );
 }
 
-function sSee(){
+function sShow(){
 	console.log("works");
-	$( ".orbit-wrapper" ).addClass( "show" );
-	$( ".orbit" ).addClass( "show" );
+	$( ".sShow" ).addClass( "show" );
 }
 
 $(".loco").click( sLoco );
 $(".how").click( sHow );
-$(".see").click( sSee );
+$(".see").click( sShow );
 
 $( ".x" ).click( hide );
 
 function hide(){
     $(".locoPop").removeClass("show");
     $(".howPop").removeClass("show");
+    $(".sShow").removeClass("show");
 
 }
 

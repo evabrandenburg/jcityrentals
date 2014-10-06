@@ -257,12 +257,15 @@ a:hover {
   color:				white;
 }
 
+.sShow{
+	display:			none;
+}
+
 .sShow .x{
 	margin-left:		710px;
 	margin-top:			5px;
 	position:			fixed;
 	z-index:			100;
-
 
 }
 
