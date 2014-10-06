@@ -254,6 +254,16 @@ a:hover {
   margin-left:			220px;
   width:				520px;
   height:				390px;
+  color:				white;
+}
+
+.sShow .x{
+	margin-left:		710px;
+	margin-top:			5px;
+	position:			fixed;
+	z-index:			100;
+
+
 }
 
 .next{
