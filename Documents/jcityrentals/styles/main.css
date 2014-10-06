@@ -105,9 +105,17 @@ h2 {
 
 }
 
+.about {
+	border:					2px black;
+	margin:					10px;
+	padding:				20px;
+	width:					30%;
+	float:					left;
+	font-size:				115%;
+}
+
 .see {
-	font-size: 		25px;
-	padding:		20px;
+	font-size: 		125%;
 }
 
 nav {
