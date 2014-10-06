@@ -107,11 +107,12 @@ h2 {
 
 .about {
 	border:					2px black;
-	margin:					10px;
+	margin:					50px;
 	padding:				20px;
 	width:					30%;
 	float:					left;
 	font-size:				115%;
+	background-color: 		rgba(176, 41, 0, .7);
 }
 
 .see {
@@ -122,7 +123,7 @@ nav {
 	text-align:		center;
 	overflow: 		hidden;
 	font-size:		20px;
-	background: -webkit-linear-gradient(rgba(176, 41, 0, .95), rgba(176, 41, 0, .2));
+	background: rgba(176, 41, 0, .7);
 	padding:			20px;
 	padding-bottom:			10px;
 }
@@ -231,6 +232,28 @@ a:hover {
    -transition: background-color 1s ease-in-out;
    -moz-transition: background-color 1s ease-in-out;
    -webkit-transition: background-color 1s ease-in-out;
+}
+
+.one{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.two{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+.three{
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+}
+
+.img{
+  position: fixed;
 }
 
 
