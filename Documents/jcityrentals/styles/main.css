@@ -256,6 +256,15 @@ a:hover {
   height:				390px;
 }
 
+.next{
+	position:			fixed;
+	margin-left:		680px;
+	margin-top:			350px;
+	color:				white;
+	font-size: 			160%
+
+}
+
 
  .show {
  	display:			block;

@@ -52,8 +52,8 @@ $(".next").click( animN );
   $(".prev").click( animP );
 
   function animN(){
-    $(".wrap .img").first().appendTo('.wrap');
-    $(".wrap .img").first();
+    $(".wrap .slide").first().appendTo('.wrap');
+    $(".wrap .slide").first();
   }
 
    function animP(){
