@@ -28,6 +28,7 @@ function sLoco(){
 
 function sHow(){
     $( ".howPop" ).addClass( "show" );
+    $(".sShow").removeClass("show");
 }
 
 function sShow(){
@@ -52,8 +53,8 @@ $(".next").click( animN );
   $(".prev").click( animP );
 
   function animN(){
-    $(".wrap .slide").first().appendTo('.wrap');
-    $(".wrap .slide").first();
+    $(".wrap .slide").first().appendTo('.wrap').fadeOut(1000);
+    $(".wrap .slide").first().fadeIn(1000);
   }
 
    function animP(){
