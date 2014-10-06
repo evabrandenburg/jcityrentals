@@ -237,23 +237,28 @@ a:hover {
 .one{
   height: 100px;
   width: 100px;
-  background-color: blue;
+  background: url(one.jpg);
+  background-size: cover;
 }
 
 .two{
   height: 100px;
   width: 100px;
-  background-color: green;
+  background: url(two.jpg);
+  background:	cover;
 }
 
 .three{
   height: 100px;
   width: 100px;
-  background-color: orange;
+  background: url(three.jpg);
+  background:	cover;
 }
 
 .img{
   position: fixed;
+  padding:				50px;
+  margin:				50px;
 }
 
 
