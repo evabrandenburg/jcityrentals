@@ -235,30 +235,25 @@ a:hover {
 }
 
 .one{
-  height: 100px;
-  width: 100px;
   background: url(one.jpg);
   background-size: cover;
 }
 
 .two{
-  height: 100px;
-  width: 100px;
   background: url(two.jpg);
-  background:	cover;
+  background-size:	cover;
 }
 
 .three{
-  height: 100px;
-  width: 100px;
   background: url(three.jpg);
-  background:	cover;
+  background-size:	cover;
 }
 
-.img{
+.slide{
   position: fixed;
-  padding:				50px;
-  margin:				50px;
+  margin-left:			220px;
+  width:				520px;
+  height:				390px;
 }
 
 
