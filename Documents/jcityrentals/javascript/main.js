@@ -21,8 +21,11 @@ function sMenu(){
 $(".loco").click( show );
 $(".how").click( show );
 $(".see").click( show );
-$(".menu").hover( sMenu );
-$( ".navM" ).mouseOut( hide );
+$(".menu").click( sMenu );
+
+if ($( ".navM" ).hasClass("show")){
+	$(".menu").click( hide );
+}
 
 $( ".x" ).click( hide );
 
@@ -30,7 +33,7 @@ function hide(){
     $(".locoPop").removeClass("show");
     $(".howPop").removeClass("show");
     $(".sShow").removeClass("show");
-    $( "navM" ).removeClass("show");
+    $( ".navM" ).addClass("hide");
 
 }
 

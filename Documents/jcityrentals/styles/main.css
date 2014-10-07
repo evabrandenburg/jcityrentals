@@ -253,6 +253,17 @@ a:hover {
  	display:			block;
 }
 
+@media only screen and (min-width: 960px) {
+	.navM {
+		display:		none;
+	}
+
+	.menu{
+		display:		none;
+	}
+
+}
+
 @media only screen and (max-width: 959px) {
 	.container {
 	background: 			url(place.jpg);
@@ -270,6 +281,11 @@ a:hover {
  	.navM {
  		background-color:	white;
  		background-color:	blue;
+ 		display:			none;
+ 	}
+
+ 	.hide {
+ 		display:			none;
  	}
 
  	.menu a{
