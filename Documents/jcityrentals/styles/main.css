@@ -286,6 +286,14 @@ a:hover {
 		display:		none;
 	}
 
+	h1 {
+		font-size: 			30px;
+	}
+
+	h2 {
+		font-size:			20px;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -324,7 +332,7 @@ a:hover {
 
  	h2{
  		font-size:			15px;
- 		float:				left;
+ 		margin-left:		10px;
  	}
 
 	.locoPop {
@@ -349,6 +357,10 @@ a:hover {
  	margin-left:			10%;
  	padding:				20px;
 
+ }
+
+ .about{
+ 	width:					60%;
  }
 
  nav {
