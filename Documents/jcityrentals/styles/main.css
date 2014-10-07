@@ -124,6 +124,11 @@ nav {
 	padding:			20px;
 	padding-bottom:			10px;
 	border-bottom: 			2px black;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navM {
+	display:		none;
 }
 
 
@@ -262,6 +267,16 @@ a:hover {
  	font-size:				70%;
  	}
 
+ 	.navM {
+ 		background-color:	white;
+ 		background-color:	blue;
+ 	}
+
+ 	.menu a{
+ 		color:				white;
+ 		font-size: 			20px;
+ 	}
+
  	h1{
  		font-size:			25px;
  		margin-left:		10px;
@@ -290,10 +305,14 @@ a:hover {
  	z-index:				100;
  	margin:					20px;
  	position:				fixed;
- 	width:					760px;
- 	margin-left:			80px;
+ 	width:					60%;
+ 	margin-left:			10%;
  	padding:				20px;
 
+ }
+
+ nav {
+ 	display:				none;
  }
 
 

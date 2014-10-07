@@ -6,22 +6,23 @@
 $(window).bind("load", function() {
 
  
-function sLoco(){
+function show(){
     $( ".locoPop" ).addClass( "show" );
-}
-
-function sHow(){
-    $( ".howPop" ).addClass( "show" );
+     $( ".howPop" ).addClass( "show" );
     $(".sShow").removeClass("show");
+    $( ".sShow" ).addClass( "show" );
 }
 
-function sShow(){
-	$( ".sShow" ).addClass( "show" );
+
+function sMenu(){
+	$( ".navM").addClass( "show" );
 }
 
-$(".loco").click( sLoco );
-$(".how").click( sHow );
-$(".see").click( sShow );
+$(".loco").click( show );
+$(".how").click( show );
+$(".see").click( show );
+$(".menu").hover( sMenu );
+$( ".navM" ).mouseOut( hide );
 
 $( ".x" ).click( hide );
 
@@ -29,6 +30,7 @@ function hide(){
     $(".locoPop").removeClass("show");
     $(".howPop").removeClass("show");
     $(".sShow").removeClass("show");
+    $( "navM" ).removeClass("show");
 
 }
 
