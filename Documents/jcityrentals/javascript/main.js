@@ -6,21 +6,32 @@
 $(window).bind("load", function() {
 
  
-function show(){
+function sLoco(){
     $( ".locoPop" ).addClass( "show" );
-     $( ".howPop" ).addClass( "show" );
-    $(".sShow").removeClass("show");
-    $( ".sShow" ).addClass( "show" );
 }
 
+function sHow(){
+    $( ".howPop" ).addClass( "show" );
+    $(".sShow").removeClass("show");
+}
+
+function sShow(){
+  $( ".sShow" ).addClass( "show" );
+}
 
 function sMenu(){
-	$( ".navM").addClass( "show" );
+  $( ".navM").addClass( "show" );
 }
 
-$(".loco").click( show );
-$(".how").click( show );
-$(".see").click( show );
+function sMenu(){
+  $( ".navM").addClass( "show" );
+}
+
+$(".loco").click( sLoco );
+$(".how").click( sHow );
+$(".see").click( sShow );
+$(".menu").click( sMenu );
+
 $(".menu").click( sMenu );
 
 if ($( ".navM" ).hasClass("show")){
