@@ -1,13 +1,14 @@
-.container {
-	background: 			url(place.jpg);
+body {
+	background: 			url(nightview.jpg);
 	background-size:		cover;
+
 	overflow:				hidden;
- 	position:				static;
- 	width:					960px;
+}
+
+.container {
+ 	width:					100%;
  	margin:					auto;
- 	height:					750px;
  	font-family: 'Roboto Condensed', sans-serif;
- 	z-index:				1;
  }
 
  h1, h2, h3, footer, .more {
@@ -109,7 +110,7 @@ h2 {
 	width:					30%;
 	float:					left;
 	font-size:				115%;
-	background-color: 		rgba(176, 41, 0, .7);
+	background-color: 		rgba(117, 116, 130, .7);
 }
 
 .see {
@@ -120,7 +121,7 @@ nav {
 	text-align:		center;
 	overflow: 		hidden;
 	font-size:		20px;
-	background: rgba(176, 41, 0, .7);
+	background: rgba(146, 148, 120, .7);
 	padding:			20px;
 	padding-bottom:			10px;
 	border-bottom: 			2px black;
@@ -207,7 +208,7 @@ a:hover {
   background: url(one.jpg);
   background-size: cover;
 }
-
+ 
 .two{
   background: url(two.jpg);
   background-size:	cover;
@@ -266,9 +267,6 @@ a:hover {
 
 @media only screen and (max-width: 959px) and (min-width: 601px) {
 	.container {
-	background: 			url(place.jpg);
-	background-size:		cover;
-	overflow:				hidden;
  	position:				static;
  	width:					100%;
  	margin:					auto;
@@ -294,14 +292,14 @@ a:hover {
 		font-size:			20px;
 	}
 
+	.sShow {
+		width:				200px;
+	}
+
 }
 
 @media only screen and (max-width: 600px) {
 	.container {
-	background: 			url(place.jpg);
-	background-size:		cover;
-	overflow:				hidden;
- 	position:				static;
  	width:					100%;
  	margin:					auto;
  	height:					600px;
@@ -323,6 +321,8 @@ a:hover {
  	.menu a{
  		color:				white;
  		font-size: 			20px;
+ 		margin-top:			15px;
+ 		position:			fixed;
  	}
 
  	h1{
@@ -370,6 +370,11 @@ a:hover {
 
  .show {
  	display:				block;
+ }
+
+ .slide {
+ 	width:					30%;
+ 	margin-left:			20%;
  }
 }
 
