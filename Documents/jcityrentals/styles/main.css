@@ -12,7 +12,7 @@ body {
  }
 
  h1, h2, h3, footer, .more {
- 	font-family: 'Roboto Slab', serif;
+ 	font-family: 'Quicksand', sans-serif;
  }
 
  .add {
@@ -104,13 +104,14 @@ h2 {
 }
 
 .about {
-	border:					2px black;
+	border:					1px solid black;
+	border-radius: 			2px;
 	margin:					50px;
 	padding:				20px;
 	width:					30%;
 	float:					left;
 	font-size:				115%;
-	background-color: 		rgba(117, 116, 130, .7);
+	background-color: 		rgba(146, 148, 120, .7);
 }
 
 .see {
@@ -126,6 +127,7 @@ nav {
 	padding-bottom:			10px;
 	border-bottom: 			2px black;
 	font-family: 'Roboto Condensed', sans-serif;
+	border-bottom: 			1px solid black;
 }
 
 .navM {
