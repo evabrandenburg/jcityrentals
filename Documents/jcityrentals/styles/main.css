@@ -315,6 +315,8 @@ a:hover {
  		background-color:	white;
  		background-color:	blue;
  		display:			none;
+ 		margin-top:			50px;
+ 		position:			fixed;
  	}
 
  	.hide {
