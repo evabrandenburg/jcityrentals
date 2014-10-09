@@ -313,10 +313,10 @@ a:hover {
 
  	.navM {
  		background-color:	white;
- 		background-color:	blue;
  		display:			none;
- 		margin-top:			50px;
+ 		margin-top:			60px;
  		position:			fixed;
+ 		padding:			5px;
  	}
 
  	.hide {
@@ -332,12 +332,13 @@ a:hover {
 
  	h1{
  		font-size:			25px;
- 		margin-left:		10px;
+ 		margin-left:		20px;
  	}
 
  	h2{
  		font-size:			15px;
- 		margin-left:		10px;
+ 		margin-left:		20px;
+ 		display:			none;
  	}
 
 	.locoPop {
