@@ -12,7 +12,7 @@ body {
  }
 
  h1, h2, h3, footer, .more {
- 	font-family: 'Quicksand', sans-serif;
+ 	font-family: 'Lora', serif;
  }
 
  .add {
@@ -116,6 +116,7 @@ h2 {
 
 .see {
 	font-size: 		125%;
+	font-family: 'Lora', serif;
 }
 
 nav {
