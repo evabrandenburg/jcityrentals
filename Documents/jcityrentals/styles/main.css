@@ -1,5 +1,6 @@
 body {
 	background: 			url(nightview.jpg);
+	background-width:		110%;
 	background-size:		cover;
 
 	overflow:				hidden;
