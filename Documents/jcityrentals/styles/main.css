@@ -313,9 +313,6 @@ a:hover {
 		font-size:			20px;
 	}
 
-	.sShow {
-		width:				200px;
-	}
 
 }
 
@@ -405,13 +402,33 @@ a:hover {
  	display:				block;
  }
 
- .sShow {
- 	display:				block;
+ .sShowM {
+ 	display:				block;\
+ 	margin-left:			-20px;
  }
 
+ .sShowM .x{
+	margin-left:		300px;
+	margin-top:			5px;
+	position:			fixed;
+	z-index:			100;
+
+}
+
+.next{
+	position:			fixed;
+	margin-left:		200px;
+	margin-top:			350px;
+	color:				white;
+	font-size: 			160%;
+	text-shadow:		2px 2px black;
+
+}
+
  .slide {
- 	margin-left:			10%;
- 	width:					80%;
+ 	margin-left:			10px;
+ 	width:					300px;
+ 	height:					200px;
  }
 }
 
