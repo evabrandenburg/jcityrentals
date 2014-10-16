@@ -122,6 +122,8 @@ h2 {
 .see {
 	font-size: 		125%;
 	font-family: 'Lora', serif;
+	color:					white;
+	text-shadow:		2px 2px black;
 }
 
 .seeN {
