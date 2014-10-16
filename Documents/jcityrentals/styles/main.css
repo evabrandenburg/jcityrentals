@@ -11,6 +11,11 @@ body {
  	font-family: 'Roboto Condensed', sans-serif;
  }
 
+ .main {
+ 	width:					960px;
+ 	margin:					auto;
+ }
+
  h1, h2, h3, footer, .more {
  	font-family: 'Lora', serif;
  }
@@ -224,7 +229,7 @@ a:hover {
 
 .slide{
   position: fixed;
- margin-left:			30%;
+ margin-left:			220px;
   width:				520px;
   height:				390px;
   color:				white;
