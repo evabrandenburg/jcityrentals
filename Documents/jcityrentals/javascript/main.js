@@ -6,15 +6,49 @@
 $(window).bind("load", function() {
 
 
-function form(pl){
-  $(".newForm").html(
-    "<input type='text' name='ss' placeholder="
-    + pl
-    + " maxlength='8'>"
+function line( number, lineN  ){
+  $(".line" + number ).html(
+    "<div class="
+    + lineN
+    +">"
+    +"</div>"
+    );
+}
+
+line( 1, "line2" );
+
+function form(number, pl1, pl2, pl3){
+  $(".line" + number ).html(
+    "<input type='text' placeholder="
+    + pl1
+    + ">"
+    +"<input type='text' placeholder="
+    + pl2
+    + ">"
+    +"<input type='text' placeholder="
+    + pl3
+    + ">"
   );
 }
 
-form( "placeholder" );
+form(1, "hello", "hello", "hello");
+form(2, "address", "address", "address");
+
+/*APPLICANT #1: ______________________________ E-Mail Address: _____________________________
+
+Home Phone ____________________ Cell Phone________________________  Birth Date ____________
+
+Social Security #___________________ Drivers License #____________________State______ Exp.____
+
+Move-in Date Required____________ Current Lease Expiration Date:     /      /
+
+Advertised Rental Amount $ ___________ Current Rent Paid $__________ My Rent Is Paid Thru */
+
+
+
+//form( "placeholder", "placeholder");
+//form( "next", "next", "next");
+
 
  
 function sLoco(){
