@@ -5,6 +5,17 @@
 
 $(window).bind("load", function() {
 
+
+function form(pl){
+  $(".newForm").html(
+    "<input type='text' name='ss' placeholder="
+    + pl
+    + " maxlength='8'>"
+  );
+}
+
+form( "placeholder" );
+
  
 function sLoco(){
     $( ".locoPop" ).addClass( "show" );
