@@ -119,25 +119,23 @@ form3(4, "Advertised Rental Amount", "Current Rent Paid", "My Rent is Paid Thru"
 
 form4(5, "Current Address", "City", "State", "Zip");
 
-/*Current Landlord Name _______________________________Landlord Phone #_____________________
+form4(6, "Current Landlord Name", "Landlord Phone #", "How long at address", "Reason for leaving");
 
-How long at this address _______ Reason for leaving__________________________________________
+form4(7, "Previous Address", "City", "State", "Zip");
 
-Previous Address ________________________________City_________________ State____ Zip_______
+//Previous Landlord Name __________________________Previous Landlord Phone # ________________
 
-Previous Landlord Name __________________________Previous Landlord Phone # ________________
+//How long at this address  _______Rent Paid $________ Reason for leaving________________________
 
-How long at this address  _______Rent Paid $________ Reason for leaving________________________
+form4(8, "Auto Owned Yr", "Make", "Model", "State/License Plate #");
 
-Auto Owned Yr._____ Make_____________ Model____________ State/License Plate #_______________
+form3(9, "Name of Employer", "Position", "Years At This Job");
 
-Name of Employer_________________________ Position ___________________ Years At This Job____
+form3(10, "Supervisor Name & Title", "Phone #", "Current Salary");
 
-Supervisor Name & Title______________________ Phone #______________Current Salary $__________
+form4(11, "Employer Address", "City", "State", "Zip");
 
-Employer Address______________________________City__________________State_____Zip________
-
-Other Income and Source__________________________________________________________________
+/*Other Income and Source__________________________________________________________________
 
 Bank Reference: Name ___________________ Account # ________________ Phone ________________
 
