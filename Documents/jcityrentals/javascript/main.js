@@ -49,6 +49,7 @@ line( "line1" );
 
 $(".line1").html( line( "line2" ););
 
+*/
 
 
 function form(number, pl1, pl2, pl3){
@@ -65,26 +66,79 @@ function form(number, pl1, pl2, pl3){
   );
 }
 
-form(1, "hello", "hello", "hello");
-form(2, "address", "address", "address");
 
 
-*/
-/*APPLICANT #1: ______________________________ E-Mail Address: _____________________________
+//APPLICANT #1: ______________________________ E-Mail Address: _____________________________
+form(1, "applicant one name", "email", "phone");
 
-Home Phone ____________________ Cell Phone________________________  Birth Date ____________
-
-Social Security #___________________ Drivers License #____________________State______ Exp.____
+//Home Phone ____________________ Cell Phone________________________  Birth Date ____________
+form(2, "Social Security #", "Driver's License #", "Birthdate");
+/*Social Security #___________________ Drivers License #____________________State______ Exp.____
 
 Move-in Date Required____________ Current Lease Expiration Date:     /      /
 
-Advertised Rental Amount $ ___________ Current Rent Paid $__________ My Rent Is Paid Thru */
+Advertised Rental Amount $ ___________ Current Rent Paid $__________ My Rent Is Paid Thru    /        /        
 
+Current Address__________________________________ City_________________State_____Zip_______
 
+Current Landlord Name _______________________________Landlord Phone #_____________________
 
-//form( "placeholder", "placeholder");
-//form( "next", "next", "next");
+How long at this address _______ Reason for leaving__________________________________________
 
+Previous Address ________________________________City_________________ State____ Zip_______
+
+Previous Landlord Name __________________________Previous Landlord Phone # ________________
+
+How long at this address  _______Rent Paid $________ Reason for leaving________________________
+
+Auto Owned Yr._____ Make_____________ Model____________ State/License Plate #_______________
+
+Name of Employer_________________________ Position ___________________ Years At This Job____
+
+Supervisor Name & Title______________________ Phone #______________Current Salary $__________
+
+Employer Address______________________________City__________________State_____Zip________
+
+Other Income and Source__________________________________________________________________
+
+Bank Reference: Name ___________________ Account # ________________ Phone ________________
+
+Nearest Relative: Name ______________________Phone __________________ Relationship _________ 
+
+CO-APPLICANT #2: ___________________________ E-Mail Address: _____________________________
+
+Home Phone _____________________  Cell Phone ________________________ Birth Date __________
+
+Social Security # ____________________Drivers License #_____________________State ___Exp._____
+
+Current Rent $_________ Rent Paid Through   /        /         Current Lease Expiration Date      /         /
+
+Current Address__________________________________City_________________State_____Zip_______
+
+Current Landlord Name  _______________________________Landlord Phone # ____________________
+
+How long at this address _______Reason for leaving___________________________________________
+
+Previous Address ______________________________City__________________ State ____ Zip________
+
+Previous Landlord Name___________________________ Previous Landlord Phone #________________
+
+How long at this address _______ Rent Paid $_________ Reason for leaving ______________________
+
+Auto Owned Yr._____ Make _____________Model ____________State/License Plate # _______________
+
+Name of Employer____________________________ Position________________Years At This Job_____
+
+Supervisor Name & Title _________________________ Phone # ____________ Current Salary ________
+
+Employer Address_______________________________City__________________State_____Zip_______
+
+Other Income and Source__________________________________________________________________
+
+Bank Reference: Name ______________________ Account # ___________________ Phone __________
+
+Nearest Relative: Name ______________________Phone __________________ Relationship _________
+*/
 
  
 function sLoco(){

@@ -63,6 +63,7 @@ body {
  	background-color: 		white;
  	z-index:				100;
  	margin:					20px;
+ 	margin-top:				10px;
  	position:				fixed;
  	width:					760px;
  	margin-left:			80px;
