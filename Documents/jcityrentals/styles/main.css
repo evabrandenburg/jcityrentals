@@ -1,8 +1,9 @@
 body {
 	background: 			url(nightview.jpg);
 	background-size:		cover;
+}
 
-	overflow:				hidden;
+form {
 }
 
 .container {
