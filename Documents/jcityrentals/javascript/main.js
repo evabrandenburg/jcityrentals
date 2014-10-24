@@ -143,6 +143,7 @@ Nearest Relative: Name ______________________Phone __________________ Relationsh
  
 function sLoco(){
     $( ".locoPop" ).addClass( "show" );
+    $( ".howPop" ).removeClass( "show" );
 }
 
 function sHow(){
