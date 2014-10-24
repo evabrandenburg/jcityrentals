@@ -6,8 +6,8 @@
 $(window).bind("load", function() {
 
 
-function line( number, lineN  ){
-  $(".line" + number ).html(
+/*function line( lineN ){
+  $("form" ).html(
     "<div class="
     + lineN
     +">"
@@ -15,7 +15,41 @@ function line( number, lineN  ){
     );
 }
 
-line( 1, "line2" );
+/*function line2( lineN ){
+ $("form" ).html(
+    "<div class="
+    + lineN
+    +">"
+    +"</div>"
+    );
+}
+
+line( )
+
+/*var n = 5; //or however much you want
+for (var i = 0; i < n; i++){
+  line( i )
+}
+
+
+
+take 
+add 
+"<div class=" 
+    + lineN
+    +">"
+    +"</div>"
+
+    N times changing class of line each time
+
+    if number of divs in form is less than or equal to N
+    add new div "lineN"
+
+line( "line1" );
+
+$(".line1").html( line( "line2" ););
+
+
 
 function form(number, pl1, pl2, pl3){
   $(".line" + number ).html(
@@ -34,6 +68,8 @@ function form(number, pl1, pl2, pl3){
 form(1, "hello", "hello", "hello");
 form(2, "address", "address", "address");
 
+
+*/
 /*APPLICANT #1: ______________________________ E-Mail Address: _____________________________
 
 Home Phone ____________________ Cell Phone________________________  Birth Date ____________
