@@ -110,15 +110,16 @@ form4(1, "applicant one name", "email", "phone", "Birthdate");
 
 //Home Phone ____________________ Cell Phone________________________  Birth Date ____________
 form4(2, "Social Security #", "Driver's License #", "State", "Exp.");
-/*Social Security #___________________ Drivers License #____________________State______ Exp.____
+//Social Security #___________________ Drivers License #____________________State______ Exp.____
 
-Move-in Date Required____________ Current Lease Expiration Date:     /      /
+//Move-in Date Required____________ Current Lease Expiration Date:     /      /
+form2(3, "Move in Date Required", "Current Lease Expiration Date");
+//Advertised Rental Amount $ ___________ Current Rent Paid $__________ My Rent Is Paid Thru    / 
+form3(4, "Advertised Rental Amount", "Current Rent Paid", "My Rent is Paid Thru");     
 
-Advertised Rental Amount $ ___________ Current Rent Paid $__________ My Rent Is Paid Thru    /        /        
+form4(5, "Current Address", "City", "State", "Zip");
 
-Current Address__________________________________ City_________________State_____Zip_______
-
-Current Landlord Name _______________________________Landlord Phone #_____________________
+/*Current Landlord Name _______________________________Landlord Phone #_____________________
 
 How long at this address _______ Reason for leaving__________________________________________
 
