@@ -52,7 +52,20 @@ $(".line1").html( line( "line2" ););
 */
 
 
-function form(number, pl1, pl2, pl3){
+function form2(number, pl1, pl2, pl3, pl4){
+  $(".line" + number ).html(
+    "<input type='text' placeholder='"
+    + pl1
+    +"'"
+    + ">"
+    +"<input type='text' placeholder='"
+    + pl2
+    +"'"
+    + ">"
+  );
+}
+
+function form3(number, pl1, pl2, pl3, pl4){
   $(".line" + number ).html(
     "<input type='text' placeholder='"
     + pl1
@@ -69,13 +82,34 @@ function form(number, pl1, pl2, pl3){
   );
 }
 
+function form4(number, pl1, pl2, pl3, pl4){
+  $(".line" + number ).html(
+    "<input type='text' placeholder='"
+    + pl1
+    +"'"
+    + ">"
+    +"<input type='text' placeholder='"
+    + pl2
+    +"'"
+    + ">"
+    +"<input type='text' placeholder='"
+    + pl3
+    +"'"
+    + ">"
+    +"<input type='text' placeholder='"
+    + pl4
+    +"'"
+    + ">"
+  );
+}
+
 
 
 //APPLICANT #1: ______________________________ E-Mail Address: _____________________________
-form(1, "applicant one name", "email", "phone");
+form4(1, "applicant one name", "email", "phone", "Birthdate");
 
 //Home Phone ____________________ Cell Phone________________________  Birth Date ____________
-form(2, "Social Security #", "Driver's License #", "Birthdate");
+form4(2, "Social Security #", "Driver's License #", "State", "Exp.");
 /*Social Security #___________________ Drivers License #____________________State______ Exp.____
 
 Move-in Date Required____________ Current Lease Expiration Date:     /      /
