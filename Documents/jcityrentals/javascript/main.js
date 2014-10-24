@@ -54,14 +54,17 @@ $(".line1").html( line( "line2" ););
 
 function form(number, pl1, pl2, pl3){
   $(".line" + number ).html(
-    "<input type='text' placeholder="
+    "<input type='text' placeholder='"
     + pl1
+    +"'"
     + ">"
-    +"<input type='text' placeholder="
+    +"<input type='text' placeholder='"
     + pl2
+    +"'"
     + ">"
-    +"<input type='text' placeholder="
+    +"<input type='text' placeholder='"
     + pl3
+    +"'"
     + ">"
   );
 }
@@ -159,20 +162,20 @@ function sMenu(){
   $( ".navM").addClass( "show" );
 }
 
-function sMenu(){
-  $( ".navM").addClass( "show" );
+function hMenu(){
+  $( ".navM").removeClass( "show ");
 }
+
 
 $(".loco").click( sLoco );
 $(".how").click( sHow );
 $(".see").click( sShow );
-$(".menu").click( sMenu );
+$(".icon").click( sMenu );
+$(".icon").click( hMenu );
 
-$(".menu").click( sMenu );
-
-if ($( ".navM" ).hasClass("show")){
+/*if ($( ".navM" ).hasClass("show")){
 	$(".menu").click( hide );
-}
+}*/
 
 $( ".x" ).click( hide );
 
