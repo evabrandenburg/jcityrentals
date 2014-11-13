@@ -67,15 +67,15 @@ function form2(number, pl1, pl2, pl3, pl4){
 
 function form3(number, pl1, pl2, pl3, pl4){
   $(".line" + number ).html(
-    "<input type='text' placeholder='"
+    "<input type='text' class='fThree' placeholder='"
     + pl1
     +"'"
     + ">"
-    +"<input type='text' placeholder='"
+    +"<input type='text' class='fThree' placeholder='"
     + pl2
     +"'"
     + ">"
-    +"<input type='text' placeholder='"
+    +"<input type='text' class='fThree' placeholder='"
     + pl3
     +"'"
     + ">"
@@ -84,19 +84,19 @@ function form3(number, pl1, pl2, pl3, pl4){
 
 function form4(number, pl1, pl2, pl3, pl4){
   $(".line" + number ).html(
-    "<input type='text' placeholder='"
+    "<input type='text' class='fFour' placeholder='"
     + pl1
     +"'"
     + ">"
-    +"<input type='text' placeholder='"
+    +"<input type='text' class='fFour' placeholder='"
     + pl2
     +"'"
     + ">"
-    +"<input type='text' placeholder='"
+    +"<input type='text' class='fFour' placeholder='"
     + pl3
     +"'"
     + ">"
-    +"<input type='text' placeholder='"
+    +"<input type='text' class='fFour' placeholder='"
     + pl4
     +"'"
     + ">"

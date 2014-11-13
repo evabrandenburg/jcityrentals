@@ -8,6 +8,7 @@ form {
 
 h4 {
 	color:				white;
+	font-size:			20px;
 	text-shadow:		2px 2px black;
 }
 
@@ -258,14 +259,36 @@ footer {
 	padding:			10px;
 }
 
+fieldset {
+	width:				640px;
+	margin:				auto;
+}
+
 
  .show {
  	display:			block;
 }
 
 .fTwo {
-	width:				300px;
-	margin:			1px 2px;
+	width:				310px;
+	height:				20px;
+	margin:				1px 2px;
+}
+
+.fThree {
+	width:				204px;
+	height:				20px;
+	margin:				1px 2px;
+}
+
+.fFour {
+	width:				151px;
+	height: 			20px;
+	margin:				1px 2px;
+}
+
+.app {
+	font-size:			15px;
 }
 
 @media only screen and (min-width: 960px) {
