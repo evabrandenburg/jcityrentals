@@ -54,11 +54,11 @@ $(".line1").html( line( "line2" ););
 
 function form2(number, pl1, pl2, pl3, pl4){
   $(".line" + number ).html(
-    "<input type='text' placeholder='"
+    "<input type='text' class='fTwo' placeholder='"
     + pl1
     +"'"
     + ">"
-    +"<input type='text' placeholder='"
+    +"<input type='text' class='fTwo' placeholder='"
     + pl2
     +"'"
     + ">"
